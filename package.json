@@ -1,0 +1,50 @@
+{
+  "name": "shiroi-portfolio",
+  "version": "0.0.1",
+  "description": "Portfólio pessoal moderno e responsivo de Matheus (Shiroi), desenvolvedor de sistemas",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "dev": "python -m http.server 8000",
+    "serve": "python -m http.server 8000"
+  },
+  "keywords": [
+    "portfolio",
+    "developer",
+    "javascript",
+    "nodejs",
+    "java",
+    "mysql",
+    "sqlite",
+    "html",
+    "css",
+    "responsive",
+    "modern",
+    "purple-theme"
+  ],
+  "author": {
+    "name": "Matheus (Shiroi)",
+    "email": "shiroicrypto@gmail.com",
+    "url": "https://github.com/ShiroiCrypto"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ShiroiCrypto/shiroi-portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ShiroiCrypto/shiroi-portfolio/issues"
+  },
+  "homepage": "https://github.com/ShiroiCrypto/shiroi-portfolio#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {},
+  "dependencies": {},
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "private": true
+} 

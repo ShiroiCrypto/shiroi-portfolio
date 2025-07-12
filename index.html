@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shiroi - Portfólio</title>
+    
+    <!-- Meta tags de segurança -->
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+    <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
+    <meta http-equiv="Permissions-Policy" content="geolocation=(), microphone=(), camera=()">
+    
+    <!-- Content Security Policy -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src 'self' https://fonts.gstatic.com https://cdnjs.cloudflare.com; img-src 'self' data: https:; connect-src 'self'; frame-src 'none'; object-src 'none';">
+    
+    <!-- Preload de recursos críticos -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" as="style">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" as="style">
+    
+    <!-- Recursos externos -->
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>">
+    
+    <!-- Meta tags para SEO e compartilhamento -->
+    <meta name="description" content="Portfólio de Matheus (Shiroi), desenvolvedor de sistemas focado em JavaScript, Node.js, Java e bancos de dados. Projetos: Aether IA e site pessoal.">
+    <meta name="keywords" content="desenvolvedor, JavaScript, Node.js, Java, MySQL, SQLite, portfólio, Shiroi">
+    <meta name="author" content="Matheus (Shiroi)">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Shiroi - Portfólio">
+    <meta property="og:description" content="Portfólio de Matheus (Shiroi), desenvolvedor de sistemas">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://shiroi-portfolio.vercel.app">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Shiroi - Portfólio">
+    <meta name="twitter:description" content="Portfólio de Matheus (Shiroi), desenvolvedor de sistemas">
+</head>
+<body>
+    <!-- Menu de Navegação -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Shiroi</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#sobre" class="nav-link">Sobre</a>
+                <a href="#tecnologias" class="nav-link">Tecnologias</a>
+                <a href="#projetos" class="nav-link">Projetos</a>
+                <a href="#contato" class="nav-link">Contato</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Seção Home -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-avatar">
+                    <div class="avatar-placeholder">
+                        <i class="fas fa-user"></i>
+                    </div>
+                </div>
+                <h1 class="hero-title">Matheus Gustavo Vieira Gonzaga Álvaro Soares</h1>
+                <h2 class="hero-subtitle">Shiroi</h2>
+                <p class="hero-description">
+                    Estudante de Desenvolvimento de Sistemas no SENAI, com foco em JavaScript e Node.js. 
+                    Entusiasta de banco de dados (MySQL e SQLite) e apaixonado por criar soluções inovadoras.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projetos" class="btn btn-primary">Ver Projetos</a>
+                    <a href="#contato" class="btn btn-secondary">Contato</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section id="sobre" class="about">
+        <div class="container">
+            <h2 class="section-title">Sobre Mim</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Sou um desenvolvedor apaixonado por tecnologia e inovação. Atualmente cursando Desenvolvimento 
+                        de Sistemas no SENAI, tenho dedicado meu tempo ao estudo e prática de tecnologias web modernas, incluindo JavaScript, Node.js, Java e bancos de dados relacionais (MySQL, SQLite).
+                    </p>
+                    <p>
+                        Minha jornada na programação começou com a curiosidade de entender como as coisas funcionam 
+                        na web. Hoje, foco meus estudos em JavaScript, Node.js, Java e bancos de dados relacionais, 
+                        sempre buscando aprender novas tecnologias e metodologias.
+                    </p>
+                    <p>
+                        Um dos meus projetos mais interessantes é o "Aether", uma IA com visual espacial disponível em duas versões: 
+                        como bot do Discord e como site web. O Aether Bot oferece navegação inteligente, respostas contextuais 
+                        e interação via chat no Discord. O Aether Site proporciona uma interface web focada em privacidade, 
+                        leveza e personalização para uma experiência fluida e moderna.
+                    </p>
+                    <p>
+                        Acredito que a tecnologia tem o poder de transformar ideias em realidade, e estou sempre 
+                        em busca de novos desafios que me permitam crescer como desenvolvedor e contribuir para 
+                        a comunidade tech.
+                    </p>
+                    <div class="senai-curriculo">
+                        <h4>📚 Componentes Curriculares do Curso SENAI</h4>
+                        <ul>
+                            <li>📝 Comunicação e Redação Técnica</li>
+                            <li>⚡ Fundamentos de Eletroeletrônica Aplicada</li>
+                            <li>🧠 Lógica de Programação</li>
+                            <li>💡 Criatividade e Ideação em Projetos de Inovação</li>
+                            <li>🌐 Internet das Coisas (IoT)</li>
+                            <li>📱 Programação de Aplicativos</li>
+                            <li>🗄️ Banco de Dados (MySQL, SQLite)</li>
+                            <li>🧩 Modelagem de Projetos de Inovação</li>
+                            <li>👨‍💻 Desenvolvimento de Sistemas</li>
+                            <li>🔧 Manutenção de Sistemas</li>
+                            <li>🧱 Modelagem de Sistemas</li>
+                            <li>🧪 Prototipagem de Negócios Inovadores</li>
+                            <li>🚀 Implantação de Sistemas</li>
+                            <li>🧾 Teste de Sistemas</li>
+                            <li>🏁 Implementação de Negócios Inovadores</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Tecnologias -->
+    <section id="tecnologias" class="technologies">
+        <div class="container">
+            <h2 class="section-title">Tecnologias</h2>
+            <div class="tech-grid">
+                <div class="tech-card">
+                    <i class="fab fa-js-square"></i>
+                    <h3>JavaScript</h3>
+                    <p>Linguagem principal para desenvolvimento web</p>
+                </div>
+                <div class="tech-card">
+                    <i class="fab fa-node-js"></i>
+                    <h3>Node.js</h3>
+                    <p>Runtime para desenvolvimento backend</p>
+                </div>
+                <div class="tech-card">
+                    <i class="fas fa-database"></i>
+                    <h3>MySQL</h3>
+                    <p>Sistema de gerenciamento de banco de dados</p>
+                </div>
+                <div class="tech-card">
+                    <i class="fas fa-database"></i>
+                    <h3>SQLite</h3>
+                    <p>Banco de dados leve e portátil</p>
+                </div>
+                <div class="tech-card">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML</h3>
+                    <p>Estruturação de conteúdo web</p>
+                </div>
+                <div class="tech-card">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS</h3>
+                    <p>Estilização e design responsivo</p>
+                </div>
+                <div class="tech-card">
+                    <i class="fab fa-github"></i>
+                    <h3>GitHub</h3>
+                    <p>Controle de versão e colaboração</p>
+                </div>
+                <div class="tech-card">
+                    <i class="fab fa-java"></i>
+                    <h3>Java</h3>
+                    <p>Desenvolvimento backend e aplicações desktop</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Projetos -->
+    <section id="projetos" class="projects">
+        <div class="container">
+            <h2 class="section-title">Projetos</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fab fa-discord"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Aether Bot</h3>
+                        <p>
+                            Bot do Discord com IA espacial, projetado para oferecer navegação inteligente, 
+                            respostas contextuais e interação via chat. Focado em privacidade e personalização.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">Discord API</span>
+                            <span class="tech-tag">IA</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/ShiroiCrypto/Aether" class="btn btn-small">
+                                <i class="fab fa-github"></i> Repositório
+                            </a>
+                            <a href="https://discord.gg/cqTEq3re6D" class="btn btn-small btn-secondary" target="_blank">
+                                <i class="fab fa-discord"></i> Discord
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Aether Site</h3>
+                        <p>
+                            Site da IA Aether com visual espacial moderno. Interface focada em privacidade, 
+                            leveza e personalização para uma experiência fluida e interativa.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/ShiroiCrypto/aether-site" class="btn btn-small">
+                                <i class="fab fa-github"></i> Repositório
+                            </a>
+                            <a href="https://aether.discloud.app" class="btn btn-small btn-secondary" target="_blank">
+                                <i class="fas fa-external-link-alt"></i> Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Site em Construção</h3>
+                        <p>
+                            Meu site pessoal em desenvolvimento, hospedado na Discloud. 
+                            Tecnologias: Node.js, JavaScript, HTML, CSS.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://guss.discloud.app" class="btn btn-small btn-secondary" target="_blank">
+                                <i class="fas fa-external-link-alt"></i> Acessar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contato" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contato</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p>Vamos conversar! Entre em contato através das minhas redes sociais:</p>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/ShiroiCrypto" class="social-link" title="GitHub">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://linkedin.com/in/seulink" class="social-link" title="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://instagram.com/math_gus" class="social-link" title="Instagram">
+                        <i class="fab fa-instagram"></i>
+                        <span>Instagram</span>
+                    </a>
+                    <a href="https://discord.gg/cqTEq3re6D" class="social-link" title="Discord">
+                        <i class="fab fa-discord"></i>
+                        <span>Discord</span>
+                    </a>
+                    <a href="mailto:shiroicrypto@gmail.com" class="social-link" title="Email">
+                        <i class="fas fa-envelope"></i>
+                        <span>Email</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p class="footer-quote" id="footer-quote">
+                    "A tecnologia é melhor quando une as pessoas." - Matt Mullenweg
+                </p>
+                <p class="footer-copyright">
+                    © 2024 Shiroi. Desenvolvido com ❤️ e muito café.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
