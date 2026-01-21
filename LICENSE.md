@@ -34,7 +34,7 @@ A Licença MIT é uma das licenças de software livre mais populares e permissiv
 
 1. **Clone o repositório**:
    ```bash
-   git clone https://github.com/seu-usuario/shiroi-portfolio.git
+   git clone https://github.com/ShiroiCrypto/shiroi-portfolio.git
    ```
 
 2. **Personalize o conteúdo**:
