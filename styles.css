@@ -167,8 +167,20 @@ body {
 }
 
 .hero-avatar {
-    margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5rem;
 }
+
+.hero-avatar img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #8b5cf6; /* roxo do site */
+  box-shadow: 0 0 20px rgba(139, 92, 246, 0.35);
+}
+
 
 .avatar-placeholder {
     width: 120px;
