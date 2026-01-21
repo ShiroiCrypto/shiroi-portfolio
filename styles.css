@@ -174,13 +174,18 @@ body {
 
 .hero-avatar img {
   width: 140px;
-  height: 140px;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 3px solid #8b5cf6; /* roxo do site */
-  box-shadow: 0 0 20px rgba(139, 92, 246, 0.35);
-}
+  aspect-ratio: 3 / 4;
+  height: auto;
 
+  object-fit: cover;
+  object-position: center 20%; /* sobe o enquadramento */
+
+  border-radius: 14px; /* mais elegante que círculo p/ 3:4 */
+  border: 2px solid #8b5cf6;
+  box-shadow: 0 10px 30px rgba(139, 92, 246, 0.25);
+
+  image-rendering: auto;
+}
 
 .avatar-placeholder {
     width: 120px;
